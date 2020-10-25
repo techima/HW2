@@ -224,6 +224,8 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-bottom: -100px;
     align-items: center;
     grid-column: 1;
     grid-row: 1;
@@ -235,6 +237,8 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-bottom: -100px;
     align-items: center;
     grid-column: 2;
     grid-row: 1;
@@ -246,6 +250,8 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-top: 0px;
     align-items: center;
     grid-column: 1;
     grid-row: 2;
@@ -257,6 +263,8 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-top: 0px;
     align-items: center;
     grid-column: 2;
     grid-row: 2;
