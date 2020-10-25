@@ -8,6 +8,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    min-width: 700px;
 }
 
 body {
@@ -53,19 +54,25 @@ button {
     border-radius: 4px;
 }
 
-.followButton {
-    padding: 8px 16px;
-    margin: 4px 0;
-    color: #ffffff;
-    background-color: #80036b;
-    border: none;
-    border-radius: 4px;
-}
-
 button:hover {
     box-shadow: 0 0 5px rgba(38, 50, 56, 0.7);
     cursor: pointer;
 }
+
+
+.followButton {
+    position: ab;
+    padding: 8px 16px;
+    width: 120px;
+    margin: 4px 0;
+    align-items: center;
+    color: #ffffff;
+    background-color: #80036b;
+    border: 2px solid #80036b;
+    Cursor: pointer !important;
+    
+}
+
 
 header {
     position: fixed;
@@ -242,13 +249,14 @@ nav div.avatar-container {
     grid-auto-flow: row;
 }
 
+
 .divSquare1 {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
-    margin-left: 10%;
-    margin-right: 10%;
     align-items: center;
+    margin-left: 0.5cm;
+    margin-right: 0.25cm;
     grid-column: 1;
     grid-row: 1;
     border: solid silver 2px;
@@ -259,9 +267,9 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
-    margin-left: 10%;
-    margin-right: 10%;
     align-items: center;
+    margin-left: 0.25cm;
+    margin-right: 0.5cm;
     grid-column: 2;
     grid-row: 1;
     border: solid silver 2px;
@@ -272,10 +280,10 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -50%;
     align-items: center;
+    margin-left: 0.5cm;
+    margin-right: 0.25cm;
+    margin-top: -83%;
     grid-column: 1;
     grid-row: 2;
     border: solid silver 2px;
@@ -286,10 +294,10 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -50%;
     align-items: center;
+    margin-top: -83%;
+    margin-left: 0.25cm;
+    margin-right: 0.5cm;
     grid-column: 2;
     grid-row: 2;
     border: solid silver 2px;
@@ -301,6 +309,6 @@ nav div.avatar-container {
     width:  125px;
     height: 125px;
     object-fit: cover;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 

@@ -8,12 +8,11 @@ $(function(){
             if (this.innerHTML=="Follow"){
             this.innerHTML = "Followed"
             this.style.backgroundColor = "White"
-            this.style.color = "Purple"
-            this.style.border = "2px solid purple"
+            this.style.color = "#80036b"
             }
             else if(this.innerHTML = "Follwed"){
             this.innerHTML = "Follow";
-            this.style.backgroundColor = "Purple"
+            this.style.backgroundColor = "#80036b"
             this.style.color = "White"
             }
         });
