@@ -202,3 +202,55 @@ nav div.avatar-container {
 .like-button.liked {
     background-color: #01579b;
 }
+
+.main-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 200;
+    grid-template-rows: 200 200;
+    grid-auto-flow: row;
+}
+
+.divSquare1 {
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.divSquare2 {
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.divSquare3 {
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.divSquare4 {
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.profilepic {
+    float: left;
+    width:  125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 30%;
+}
