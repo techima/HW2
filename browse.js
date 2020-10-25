@@ -22,6 +22,7 @@ $(function(){
         $(".main-container").append(square)
       }
     })
+
   })
 
   function change(_this)
