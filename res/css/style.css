@@ -227,6 +227,8 @@ nav div.avatar-container {
     align-items: center;
     grid-column: 1;
     grid-row: 1;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .divSquare2 {
@@ -236,6 +238,8 @@ nav div.avatar-container {
     align-items: center;
     grid-column: 2;
     grid-row: 1;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .divSquare3 {
@@ -245,6 +249,8 @@ nav div.avatar-container {
     align-items: center;
     grid-column: 1;
     grid-row: 2;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .divSquare4 {
@@ -254,6 +260,8 @@ nav div.avatar-container {
     align-items: center;
     grid-column: 2;
     grid-row: 2;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .profilepic {
