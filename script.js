@@ -1,7 +1,6 @@
 $(document).ready(function(){
    $.get("https://private-anon-6630f0a8cc-wad20postit.apiary-mock.com/users/1", function(data){
-     let profile = $('.avatar').attr('src', data.avatar);
-     let myDropdown = $('#myDropdown');
+      $('.avatar').attr('src', data.avatar);
     	$("#myDropdown").hide();
       $(".avatar").click(function(){
         $("#myDropdown").toggle();
