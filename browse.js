@@ -39,6 +39,4 @@ $(function(){
   }).fail(function(){
          alert("An error has occurred, cannot fetch profile data");
      });
-
   })
-
