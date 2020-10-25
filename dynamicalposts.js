@@ -12,7 +12,7 @@ $(function(){
                     content.append($('<video controls>').append($('<source type="video/mp4">').attr('src', item.media.url)));
                 } else {
                     content.append($('<img>').attr('src', item.media.url));
-                } 
+                }
             }
             let button = $('<button type="button" name="like" class="like-button">').text(item.likes);
             button.click(function(){
@@ -36,5 +36,5 @@ $(function(){
                 .append(likeButton);
             $('.main-container').append(post);
         }
-    }); 
+    });
 });
