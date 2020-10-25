@@ -248,36 +248,52 @@ nav div.avatar-container {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-bottom: -100px;
     align-items: center;
     grid-column: 1;
     grid-row: 1;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .divSquare2 {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-bottom: -100px;
     align-items: center;
     grid-column: 2;
     grid-row: 1;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .divSquare3 {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-top: 0px;
     align-items: center;
     grid-column: 1;
     grid-row: 2;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .divSquare4 {
     display: flex;
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
+    margin: 30px;
+    margin-top: 0px;
     align-items: center;
     grid-column: 2;
     grid-row: 2;
+    border: solid silver 2px;
+    border-radius: 12px;
 }
 
 .profilepic {
