@@ -9,6 +9,7 @@ $(function(){
             this.innerHTML = "Followed"
             this.style.backgroundColor = "White"
             this.style.color = "Purple"
+            this.style.border = "2px solid purple"
             }
             else if(this.innerHTML = "Follwed"){
             this.innerHTML = "Follow";
@@ -21,6 +22,7 @@ $(function(){
         square = $(".divSquare"+(i+1)).append(picture).append(name).append(follow);
         $(".main-container").append(square)
       }
+
     }).fail(function(){
            alert("An error has occurred, cannot fetch profile data");
        });
@@ -40,16 +42,3 @@ $(function(){
 
   })
 
-  function change(_this)
-  {
-      if (_this.value=="Follow"){
-      _this.value = "Followed";
-      _this.style.backgroundColor = "Purple"
-      _this.style.color = "White"
-      }
-      else {
-      _this.value = "Follow";
-      _this.style.backgroundColor = "White"
-      _this.style.color = "Purple"
-      }
-  }
